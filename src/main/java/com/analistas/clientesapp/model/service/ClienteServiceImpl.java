@@ -2,14 +2,12 @@ package com.analistas.clientesapp.model.service;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
 import com.analistas.clientesapp.model.entitis.Cliente;
 import com.analistas.clientesapp.model.repository.ClienteRepository;
 
-import com.analistas.clientesapp.model.service.*;
-
-import com.analistas.*;
-
-
+@Service
 public class ClienteServiceImpl implements IClienteService {
 
 	//Ya nos da la pauta para cpor crear el codigo

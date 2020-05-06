@@ -18,8 +18,8 @@ private List<Cliente> clientes;
 		//Borrar cuando se coneccte a una bd;
 
 		clientes.add(new Cliente(1, "Rodriguez", "Neymar", LocalDate.parse("1996-08-21")));
-		clientes.add(new Cliente(2, "Osvaldo", "Neymar", LocalDate.parse("1999-08-31")));
-		clientes.add(new Cliente(3, "Julian", "Neymar", LocalDate.parse("1997-08-25")));
+		clientes.add(new Cliente(2, "Lovisolo", "Osvaldo", LocalDate.parse("1999-08-31")));
+		clientes.add(new Cliente(3, "Lovisolo", "Julian", LocalDate.parse("1997-08-25")));
 
 	}
 
